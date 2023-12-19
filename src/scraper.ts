@@ -2,6 +2,7 @@
 import puppeteer from "puppeteer";
 import { parseCsvFile } from "./utils/helpers/CsvToJson";
 import * as path from "path";
+import * as readline from "readline";
 
 interface User {
   link: string;
@@ -53,11 +54,25 @@ async function scrapeWebsite(browser: any): Promise<void> {
   await Promise.all(userPromises);
 }
 
+const waitForKeypress = () => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  return new Promise<void>((resolve) =>
+    rl.question("Press Enter to continue...", () => {
+      rl.close();
+      resolve();
+    })
+  );
+};
 (async () => {
   const browser = await puppeteer.launch();
 
   try {
     await scrapeWebsite(browser);
+    await waitForKeypress();
   } finally {
     await browser.close();
   }
