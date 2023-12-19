@@ -1,6 +1,7 @@
 /// <reference types="puppeteer" />
 import puppeteer from "puppeteer";
 import { parseCsvFile } from "./utils/helpers/CsvToJson";
+import * as path from "path";
 
 interface User {
   link: string;
@@ -8,7 +9,8 @@ interface User {
 }
 
 async function fileToJson(): Promise<User[]> {
-  const usersJson = await parseCsvFile("src/users.txt");
+  const filePath = path.join(__dirname, "users.txt");
+  const usersJson = await parseCsvFile(filePath);
   return usersJson;
 }
 
