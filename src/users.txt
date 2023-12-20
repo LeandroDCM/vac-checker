@@ -1,5 +1,5 @@
 link,name
-https://steamcommunity.com/profiles/76561198843292099/,Faputa
+https://steamcommunity.com/profiles/76561198843292099/,Faputa aqui só por teste
 https://steamcommunity.com/profiles/76561199074231760/,AGK DESCARADO
 https://steamcommunity.com/profiles/76561198267347683/,Batutinha DESCARADO
 https://steamcommunity.com/profiles/76561198050196763/,LUTOU CONTRA BATUTINHA E AGK
@@ -10,7 +10,6 @@ https://steamcommunity.com/profiles/76561198961447588/,XD descarado
 https://steamcommunity.com/profiles/76561198099281034/,f0rest DESCARADO OVERPASS
 https://steamcommunity.com/profiles/76561198174954422/,qkzin DESCARADO OVERPASS
 https://steamcommunity.com/profiles/76561199073715005/,ESMURFE ancient
-https://steamcommunity.com/profiles/76561198843292099/,
 https://steamcommunity.com/profiles/76561198986836288/,Suégue DESCARADO VERTIGO
 https://steamcommunity.com/profiles/76561198857302211/,LOKOLINO DESCARADO VERTIGO
 https://steamcommunity.com/profiles/76561199113754962/,FERNANDOBALAIO NEVERLOSE
@@ -20,4 +19,5 @@ https://steamcommunity.com/profiles/76561198140403342/,highzika vertigo descarad
 https://steamcommunity.com/profiles/76561198048783002/,sapph vertigo
 https://steamcommunity.com/profiles/76561198084258429/,bandolero vertigo
 https://steamcommunity.com/profiles/76561198825453382/,flp7 ancient
-
+https://steamcommunity.com/profiles/76561198846146397/, MEGATRON vertigo NEVERLOSE
+https://steamcommunity.com/profiles/76561197974823634/,A overpass NEVERLOSE

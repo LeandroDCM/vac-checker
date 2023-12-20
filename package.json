@@ -1,4 +1,12 @@
 {
+  "pkg": {
+    "assets": "src/**/*",
+    "scripts": "src/scraper.ts",
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "out"
+  },
   "scripts": {
     "start": "nodemon -r ts-node src/scraper.ts",
     "build": "pkg src/scraper.ts --output bulk-vac-checker.exe"
